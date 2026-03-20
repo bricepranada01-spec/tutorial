@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: red;
+        background-color: orange;
+        text-decoration: underline;
+        font-size: 300px;
+        animation: growAndShrink 5s infinite;
+      }
+      a:active {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      @keyframes growAndShrink {
+        0% {
+          font-size: 16px;
+        }
+        50% {
+          font-size: 150px;
+        }
+        100% {
+          font-size: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Link Colors</h2>
+
+    <p>You can change the default colors of links</p>
+
+    <a href="html_images.asp" target="_blank">HTML Images</a>
+  </body>
+</html>
