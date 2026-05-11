@@ -9,13 +9,13 @@
 
     <img
       src="https://www.w3schools.com/html/workplace.jpg"
-      alt="Workplace"
-      usemap="#workmap"
+      alt="Worktable"
+      usemap="#worktable"
       width="400"
       height="379"
     />
 
-    <map name="workmap">
+    <map name="worktable">
       <area
         shape="rect"
         coords="34,44,270,350"
@@ -35,5 +35,52 @@
         href="https://insanelygoodrecipes.com/what-to-eat-with-coffee/"
       />
     </map>
+
+    <img
+      src="https://www.w3schools.com/html/frenchfood.jpg"
+      alt="French food"
+      usemap="#frenchfood"
+    />
+    <map name="frenchfood">
+      <area
+        shape="poly"
+        coords="285.0,301.5, 303.5, 301.5, 318.0,309.5, 324.5, 319.0, 332.5, 317.0, 344.5, 312.0, 359.5, 312.5, 369.5, 321.5, 376.5, 330.5, 388.0, 327.5, 402.0, 321.5, 417.0, 327.5, 430.0, 337.5, 430.0, 353.0, 425.0, 365.5, 417.0, 377.0, 403.5, 383.0, 387.0, 385.5, 385.5, 400.0, 380.5, 413.5, 368.5, 420.0, 361.5, 430.0, 357.0, 444.5, 343.0, 456.0, 328.0, 458.0, 319.5, 448.0, 311.0, 433.0, 311.0, 418.0, 294.0, 410.0, 283.5, 397.5, 284.0, 379.5, 289.5, 362.0, 287.0, 350.0, 274.0, 342.0, 272.0, 329.0, 273.0, 312.5, 284.0, 301.5"
+        alt="Chocolate Munchkin"
+        href="https://easydessertrecipes.com/air-fryer-chocolate-donut-holes-recipe/"
+      />
+      <area
+        shape="poly"
+        coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
+        href="https://delishglobe.com/recipe/french-croissants-buttery-pastry/"
+      />
+    </map>
+
+    <img
+      src="https://www.w3schools.com/html/workplace.jpg"
+      alt="Workplace"
+      usemap="#workjavascript"
+      width="400"
+      height="379"
+    />
+
+    <map name="workjavascript">
+      <area
+        shape="circle"
+        coords="337,300,44"
+        href="coffee.htm"
+        onmouseleave="pogiFunction()"
+        onmouseover="superpogi()"
+      />
+    </map>
+
+    <script>
+      function pogiFunction() {
+        alert("Bakit mo binitawan ang poging katulad ko!");
+      }
+
+      function superpogi() {
+        document.body.style.backgroundColor = "red";
+      }
+    </script>
   </body>
 </html>
